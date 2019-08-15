@@ -1,0 +1,59 @@
+<archetype-descriptor
+        xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0
+            http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+        xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        name="kotlin-archetype">
+
+    <modules>
+        <module id="sub-java-1" dir="sub-java-1">
+            <fileSets>
+                <fileSet filtered="true" packaged="true">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true">
+                    <directory>src/test/java</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/test/resources</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="sub-kotlin-1" dir="sub-kotlin-1">
+            <fileSets>
+                <fileSet filtered="true" packaged="true">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true">
+                    <directory>src/test/java</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/test/resources</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="sub-kotlin-2" dir="sub-kotlin-2">
+            <fileSets>
+                <fileSet filtered="true" packaged="true">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true">
+                    <directory>src/test/java</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/test/resources</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+    </modules>
+
+</archetype-descriptor>
